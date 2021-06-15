@@ -1,1 +1,15 @@
-This is a subset of the Holzinger & Swineford (1939) dataset. The original dataset contained 26 cognitive ability measures in junior high students. The subset used here contains 9 cognitive ability measures, hypothesized to load on three different factors: Spatial, Verbal, and Memory (3 indicators per factor). Missing data have artificially been created by deleting observations on the last two variables for 30 of the 145 cases. The missing values have been deleted conditioning on values of other variables, creating MAR data. This dataset is analyzed in the sample R code below. 
+How to update lab website on Mac:
+
+Go to terminal 
+
+First update the content using jekyll with the following code 
+cd Dropbox 
+cd UBC\ Quant\ Lab\ Website/
+jekyll serve
+
+then push the changes to git and github with the following code
+cd _site
+git init 
+git add --all
+git commit -m “comment"
+git push origin master 
